@@ -1,0 +1,27 @@
+h = 10
+e = 3
+l = 25
+p = 66
+print(h + e + l + p)
+
+a = 8
+b = 32 + a
+print('32 + 8 =', b)
+
+z = 3
+w = 2
+f = z * w
+print('3 * 2 =', f)
+
+s = 56
+u = -3
+print(s // u)
+
+l = 5
+r = 6
+i = int(input("введите число"))
+print(i * l + r)
+
+g = int(input("Введите первое число:"))
+y = int(input("Введите второе число:"))
+print(int(g * y))
