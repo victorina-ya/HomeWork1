@@ -1,0 +1,9 @@
+a = int(input("Cколько км ты пробежал сегодня?"))
+b = int(input("Сколько ты хотел бы пробегать"))
+res_d = 1
+res_km = a
+while res_km < b:
+    a = a + 0.1
+    res_d += 1
+    res_km = res_km + a
+print(f"Ты достишнешь резулитата за %.d дней" % res_d)
