@@ -1,0 +1,12 @@
+num_inp = int(input("Введите целое положительное число"))
+gr_num = num_inp % 10
+num = num_inp
+
+while num > 0:
+    term_num = num % 10
+    if term_num > gr_num:
+        gr_num = term_num
+        break
+
+num = num // 10
+print(f"наибольшая цифра в числе {num_inp} равна {gr_num}")
