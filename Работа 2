@@ -1,0 +1,4 @@
+seconds = int(input("Введите кол - во секунд"))
+minutes = seconds // 60
+hours = minutes // 60
+print(f"Время в формате чч:мм:сс {hours}:{minutes}:{seconds}")
